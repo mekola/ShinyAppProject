@@ -2,7 +2,7 @@
 Course project shiny application and reproducible pitch.
 
 This repo contains the ui.R and server.R files that are used for the shiny data app developed as course work for the week 4 of the data products course. 
-You can view a presentation of the project by clicking on the Week4AppPresent file in this repo.
+A presentation on the project app is available on RPubs: http://rpubs.com/alokem/wordvizapp
 
 ## Get Started
 The app is published to shinyapps.io (RStudio Shiny Apps server). To start click onthe link here:
