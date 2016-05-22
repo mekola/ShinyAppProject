@@ -1,0 +1,46 @@
+Word Frequency Visualization
+========================================================
+author: Aloke Mukherjee
+date: 5/18/2016
+autosize: true
+
+What Is This App?
+========================================================
+
+This simple app is designed to check the frequency of words used in any document (as a text file) and display the result as a word cloud. It is an excellent product for data mining. With it you can:
+
+- Select the frequency that you want for the words
+- Select the max. number of words that you want to count 
+
+
+What's it for?
+========================================================
+
+The best use of this app would be when you are researching a book, a speech or any chunk of text. Best when the matter is in a text file (*.txt).
+
+Probably the best example of its use in mining political speeches, or debates. What is the word that your favorite (or least favorite) politician use in the last speech? what did it imply? Use this app to find out!
+
+The examples included are text files in *.txt.gz format. They are three popular Shakespeare plays. 
+Have a go at it - I think you will be surprised with the result!
+
+
+What Does It Look Like?
+========================================================
+
+Here is what result will look like when you run the app with a frequency of 15 and a word count of fifty. You can change the result by moving the slider after selecting the document to run the app on.
+
+```{r,echo=FALSE}
+require(EBImage)
+Image <- readImage('C:/Users/Aloke Mukherjee/Dropbox/Public/WORK/COURSERA/Developing Data Products/WordCloudApp/PIC.png')
+display(Image)
+
+```
+
+
+In Conclucion ...
+========================================================
+
+This app was created as a project and was done quickly. Acknowledgement is due and given to all authors of the packages that I have used here. 
+Enjoy and use it.
+Cheers!
+
